@@ -23,9 +23,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/event-drops/dist/style.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/d3v4/build/d3.js",
+              "node_modules/event-drops/dist/index.js"
+            ]
           },
           "configurations": {
             "production": {
